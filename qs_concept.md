@@ -14,7 +14,7 @@ qubit: https://docs.microsoft.com/zh-cn/quantum/quantum-concepts-4-qubit?view=qs
 #### 示例
 在 Q# 中是通过定义“操作”来获取或设置量子位状态的，在定义操作之前，我们需要先引入操作量子位的原语 Microsoft.Quantum.Primitive 命名空间，该命名空间定义了很多基本的量子逻辑门操作，例如：M()、X()、Z()、H()、CNOT() 等。  
 在 Bell.qs 中定义一个 Set 操作，其作用非常简单，判断给定的量子位状态是否与期望的结果一致。如果一致，则啥也不做；若不一致，就将其进行翻转过来。代码如下所示：
-```
+```qs
 operation Set(desired: Result, q1: Qubit) : ()
 {
     body
@@ -32,7 +32,7 @@ operation Set(desired: Result, q1: Qubit) : ()
 ```
 
 下面定义一个操作 BellTest 来测试两个量子位的纠缠:
-```
+```qs
 operation BellTest() : (Result, Result)
 {
     body
