@@ -8,5 +8,5 @@
 4、可以作为各种前端框架的后端来使用，如 Angular、Knockout、Vue、React 等等
 
 # C# 能用来做什么
-开发 Windows、Linux、MacOS、Android、iOS、Windows Phone、Web 以及嵌入式/物联网应用  
+开发 Windows、Linux、MacOS、Android、iOS、Windows Phone、Web 以及嵌入式/物联网  
 总之几乎所有领域都可以用 C#
