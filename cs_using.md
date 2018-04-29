@@ -37,6 +37,29 @@
     using Project = PC.MyCompany.Project;
     using Msgbox = MessageBox.Show;
     ```
+* IDisposable
+    ```cs
+    class A : IDisposable
+    {
+        public void Dispose()
+        {
+            ...
+        }
+    }
+    ...
+
+    class Program
+    {
+        static void Main(string[] arg)
+        {
+            using (var a = new A())
+            {
+                ...
+            }
+        }
+    }
+   
+    ```
 
 examples
 ```cs
