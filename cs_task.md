@@ -1,5 +1,5 @@
 # Task
-使用 Task 代替原始的多线程解决方案，Task 会自动管理并发数量。如果不想被限制并发数量可以使用 Thread 代替。
+使用 Task 代替原始的多线程解决方案，Task 会自动管理并发数量。如果不想被限制并发数量可以使用 Thread 代替。同时，Task 也是异步 async/await 的基础。
 ```cs
 static void Main(string[] args)
 {
